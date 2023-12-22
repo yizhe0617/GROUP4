@@ -28,17 +28,12 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <!-- body -->
 
 <body class="main-layout">
-    <!-- loader  -->
-    <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-    </div>
-    <!-- end loader -->
     <!-- header -->
     <header>
         <!-- header inner -->
@@ -70,10 +65,10 @@
                                 <div class="limit-box">
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
-                                            <li class="active"> <a href="#game">Game</a> </li>
+                                            <li> <a href="#game">Game</a> </li>
                                             <li> <a href="#GameIntroduce">遊戲介紹</a> </li>
                                             <li> <a href="#about">About</a> </li>
-                                           
+                                            <li> <a href="#GameMode">遊戲模式</a> </li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -83,7 +78,7 @@
                     </div>
                 </div>
         
-           </section>
+        </section>
         </div>
     </header>
 
@@ -109,7 +104,7 @@
 
                             <div class="Games">
                                 <h3>LOGO</h3>
-                                <p>這是由valve出品的知名經典遊戲 CS (counter - strike)的圖標，之所以用這個是因為他是所有射擊遊戲rush b的起點，也是啟蒙所有CS:GO玩家的第一個戰術，之後可能會再精修。</p>
+                                <p>這是由valve出品的知名經典遊戲 CS (counter - strike)的圖標，之所以用這個是因為他是所有射擊遊戲rush b的起點，也是啟蒙所有CS:GO玩家的第一個戰術。</p>
                             </div>
                         </div>
                     </div>
@@ -150,8 +145,45 @@
         </div>
     </div>
     <!-- end We are -->
+    <br/>
+    <!-- 遊玩方式介紹 -->
+    <div id="GameMode" class="We_are">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>遊戲模式簡介</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="box_text">
+                        <bl style="text-align: center;">
+                            <dt style="font-size:2rem;">炸彈</dt>
+                            <dd>不是經典的炸彈模式，進攻方的目標是要拆除炸彈</dd>
+                            <dt style="font-size:2rem;">人質</dt>
+                            <dd>把人質從防守方的手中救出</dd>
+                            <dt style="font-size:2rem;">肅清威脅</dt>
+                            <dd>就是佔點模式，但大家都把他當成殲滅戰</dd>
+                        </bl>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
+                    <div class="box_bg">
+                        <div class="box_bg_img">
+                            <figure><img src="images/r6p.webp"></figure>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!--遊戲模式尾-->
 
-    <!-- about  -->
+    <!-- 影片-->
     <div id="about" class="about">
         <div class="container">
             <div class="row">
@@ -172,39 +204,11 @@
             </div>
         </div>
     </div>
-    <!-- end abouts -->
-    <br/>
-    <!-- 遊玩方式介紹 -->
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage" id="game">
-                        <h2>遊玩方式介紹</h2>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div class="box_text">
-                                <p> 
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, alias! Facilis nisi eius earum excepturi? Est, commodi cupiditate molestias impedit perspiciatis adipisci harum quae, molestiae eveniet perferendis fugit maxime repudiandae. 
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati minus quidem nobis exercitationem. Recusandae commodi accusantium sapiente deserunt! Cum accusantium, veniam tenetur blanditiis facilis illo voluptas impedit nam inventore corrupti!
-                                </p>
-                            </div>
-                        </div> 
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
-                            <div class="box_bg">
-                                <div class="box_bg_img">
-                                    <figure><img src="images/r6p.webp"></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>  
-    </div>
+    <!--影片尾-->
     <br/>
     <br/>
     <br/>
-    <img src="images/rep2.jpg" alt="描述圖片的文字" class="rounded-image">
+    <img src="images/rep2.webp" alt="描述圖片的文字" class="rounded-image">
 
     <!-- testimonial -->
 
