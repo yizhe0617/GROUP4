@@ -594,7 +594,7 @@
      padding: 30px 0px;
 }
  .header-search {
-     padding: 3px 0px;
+     padding: 1px 0px;
 }
  .header-search form {
      position: relative;
@@ -1018,7 +1018,7 @@
      transition: 0s;
 }
 .header-top {
-    background: url(../images/bg.png);
+    background: url(../images/bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 50px;
@@ -1029,7 +1029,7 @@
      position: absolute;
      z-index: 999;
      width: 100%;
-     padding: 40px 40px 40px 40px;
+     padding: 10px 40px 40px 13px;
 }
  .logo a {
      font-size: 40px;
