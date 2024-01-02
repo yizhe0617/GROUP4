@@ -1215,6 +1215,7 @@
 }
  .about .about-box {
     text-align: center;
+    overflow: hidden;
 }
  .about .about-box p {
      font-size: 17px;
